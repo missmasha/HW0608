@@ -4,7 +4,6 @@ object FoodCalculator extends App {
   val quantity = 20
 
   print("It will cost " + price * quantity)
-  print(" eur to buy " + quantity)
-  println(" kilos of " + food)
+  println(s" eur to buy $quantity kilos of $food")
 
 }
